@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class CustomPipe implements PipeTransform {
 
   transform(value: string, ...args: unknown[]): string {
-    return value + 'thru a custom pipe!';
+    return value + ' thru a custom pipe!';
   }
 
 }
